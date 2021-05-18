@@ -1,0 +1,21 @@
+
+#title{
+    max-width: 800px;
+    height: auto;
+    margin: auto;
+    background-position:center;
+}
+
+#form{
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}
+
+.center{
+    max-width: 500px;
+    height: auto;
+    margin: auto;
+    text-align: center;
+}

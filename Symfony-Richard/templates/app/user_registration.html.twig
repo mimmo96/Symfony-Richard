@@ -1,0 +1,12 @@
+{# templates/app/user_registration.html.twig #}
+{% extends "base.html.twig" %}
+{% block head_css %}
+    {{  parent()  }}
+    <link href="{{ asset('css/form.css') }}" rel="stylesheet"/> 
+{% endblock %}
+{% block main %}
+    <div id="register_form">
+        <h1>Register to our app!</h1>
+        {{ form(form) }}
+    </div>
+{% endblock %}
